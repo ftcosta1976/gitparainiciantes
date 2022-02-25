@@ -6,7 +6,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/ola', (req,res) => {
-    res.status(200).send({message: 'Olá mundo estou testando desktop'});
+    res.status(200).send({message: 'Rota Olá mundo estou testando desktop'});
 })
 
 
